@@ -9,7 +9,11 @@ Our method achieved an average Bona fide Presentation Attack Detection Error Rat
 models/: Implementation of the unsupervised autoencoder and convolutional block attention module.
 
 Data_Prep.py: Utility functions for data preprocessing, evaluation metrics, and visualization.
+
 train.py: Script for training the unsupervised model on genuine fingerprint samples.
+
 test.py: Script for evaluating the trained model on genuine and spoofed fingerprint samples.
+
 requirements.txt: List of required Python packages and dependencies.
+
 README.md: This file, providing an overview of the repository and instructions for running the code.
