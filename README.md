@@ -6,8 +6,6 @@ The proposed approach combines an unsupervised autoencoder with a convolutional 
 # Results
 Our method achieved an average Bona fide Presentation Attack Detection Error Rate (BPCER) of 0.96% with an Attack Presentation Classification Error Rate (APCER) of 1.6% when evaluated against various types of presentation attacks involving spoofed samples.
 # Repository Structure
-models/: Implementation of the unsupervised autoencoder and convolutional block attention module.
-
 Data_Prep.py: Utility functions for data preprocessing, evaluation metrics, and visualization.
 
 train.py: Script for training the unsupervised model on genuine fingerprint samples.
