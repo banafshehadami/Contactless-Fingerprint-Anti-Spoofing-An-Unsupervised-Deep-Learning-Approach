@@ -5,9 +5,10 @@ Contactless fingerprint recognition offers improved user convenience and hygiene
 The proposed approach combines an unsupervised autoencoder with a convolutional block attention module to learn the underlying patterns of genuine fingerprint images without exposure to any spoofed samples during training. This unsupervised learning strategy enables the model to detect presentation attacks effectively during the testing phase, even for previously unseen attack types.
 # Results
 Our method achieved an average Bona fide Presentation Attack Detection Error Rate (BPCER) of 0.96% with an Attack Presentation Classification Error Rate (APCER) of 1.6% when evaluated against various types of presentation attacks involving spoofed samples.
-# models/: Implementation of the unsupervised autoencoder and convolutional block attention module.
-# utils/: Utility functions for data preprocessing, evaluation metrics, and visualization.
-# train.py: Script for training the unsupervised model on genuine fingerprint samples.
-# test.py: Script for evaluating the trained model on genuine and spoofed fingerprint samples.
-# requirements.txt: List of required Python packages and dependencies.
-# README.md: This file, providing an overview of the repository and instructions for running the code.
+# Repository Structure
+models/: Implementation of the unsupervised autoencoder and convolutional block attention module.
+Data_Prep.py: Utility functions for data preprocessing, evaluation metrics, and visualization.
+train.py: Script for training the unsupervised model on genuine fingerprint samples.
+test.py: Script for evaluating the trained model on genuine and spoofed fingerprint samples.
+requirements.txt: List of required Python packages and dependencies.
+README.md: This file, providing an overview of the repository and instructions for running the code.
